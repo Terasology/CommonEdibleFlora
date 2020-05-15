@@ -43,7 +43,7 @@ import java.util.List;
  * 2. The currentStage of the BushDefinitionComponent matches the block that gets put into the world
  */
 @RegisterPlugin
-public class BushRaserizer implements WorldRasterizerPlugin {
+public class BushRasterizer implements WorldRasterizerPlugin {
     private BlockManager blockManager;
     private PrefabManager prefabManager;
 
