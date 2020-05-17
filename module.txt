@@ -6,7 +6,7 @@
     "description": "Adds a small number of edible produce which can be grown using SimpleFarming",
     "dependencies": [
         { "id": "BasicCrafting", "minVersion": "0.1.0", "optional": true },
-        { "id": "CoreWorlds", "minVersion": "1.0.0" },
+        { "id": "CoreWorlds", "minVersion": "1.1.0" },
         { "id": "Hunger", "minVersion": "1.0.0" },
         { "id": "SimpleFarming", "minVersion": "2.0.0" },
         { "id": "Thirst", "minVersion": "1.0.0" }
