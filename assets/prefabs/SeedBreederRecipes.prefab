@@ -1,0 +1,73 @@
+{
+  "ListRecipes": {
+    "categories": [
+      "SeedBreeder",
+      "Seeds"
+    ],
+    "recipes": {
+      "EdibleFlora:Blackberry": {
+        "inputs": {
+          "EdibleFlora:Blackberry": 1,
+          "Blackberry": 1
+        },
+        "outputCount": 1
+      },
+      "EdibleFlora:Grape": {
+        "inputs": {
+          "EdibleFlora:Grape": 1,
+          "Grape": 1
+        },
+        "outputCount": 1
+      },
+      "EdibleFlora:Cherry": {
+        "inputs": {
+          "EdibleFlora:Cherry": 1,
+          "Cherry": 1
+        },
+        "outputCount": 1
+      },
+      "EdibleFlora:Starfruit": {
+        "inputs": {
+          "EdibleFlora:Starfruit": 1,
+          "Starfruit": 1
+        },
+        "outputCount": 1
+      },
+      "EdibleFlora:Banana": {
+        "inputs": {
+          "EdibleFlora:Banana": 1,
+          "Banana": 1
+        },
+        "outputCount": 1
+      },
+      "EdibleFlora:Apple": {
+        "inputs": {
+          "EdibleFlora:Apple": 1,
+          "Apple": 1
+        },
+        "outputCount": 1
+      },
+      "EdibleFlora:Orange": {
+        "inputs": {
+          "EdibleFlora:Orange": 1,
+          "Orange": 1
+        },
+        "outputCount": 1
+      },
+      "EdibleFlora:Pear": {
+        "inputs": {
+          "EdibleFlora:Pear": 1,
+          "Pear": 1
+        },
+        "outputCount": 1
+      },
+      "EdibleFlora:Carrot": {
+        "inputs": {
+          "EdibleFlora:Carrot": 1,
+          "Carrot": 1
+        },
+        "outputCount": 1
+      }
+    }
+  }
+}
