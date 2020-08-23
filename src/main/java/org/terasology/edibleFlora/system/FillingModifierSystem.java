@@ -11,6 +11,7 @@ import org.terasology.entitySystem.systems.RegisterMode;
 import org.terasology.entitySystem.systems.RegisterSystem;
 import org.terasology.hunger.component.FoodComponent;
 import org.terasology.simpleFarming.events.ModifyFilling;
+import org.terasology.utilities.modifiable.ModifiableValue;
 
 /**
  * This system is used to return any modified value of the FoodComponent of a seed
@@ -22,5 +23,6 @@ public class FillingModifierSystem extends BaseComponentSystem {
     @ReceiveEvent
     public void onFillingModifiedEvent(ModifyFilling event, EntityRef entity) {
         entity.getComponent(FoodComponent.class).filling.preAdd(event.getNewFilling());
+        event.filling = entity.getComponent(FoodComponent.class).filling;
     }
 }
