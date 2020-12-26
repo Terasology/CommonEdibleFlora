@@ -16,6 +16,7 @@
 package org.terasology.edibleFlora.worldGenerator;
 
 
+import org.joml.Vector3ic;
 import org.terasology.core.world.generator.facets.FloraFacet;
 import org.terasology.entitySystem.prefab.Prefab;
 import org.terasology.entitySystem.prefab.PrefabManager;
@@ -79,7 +80,7 @@ public class BushRasterizer implements WorldRasterizerPlugin {
     public void generateChunk(CoreChunk chunk, Region chunkRegion) {
 
         FloraFacet facet = chunkRegion.getFacet(FloraFacet.class);
-        facet.getRelativeEntries().keySet().stream().forEach((BaseVector3i pos) -> {
+        facet.getRelativeEntries().keySet().stream().forEach((Vector3ic pos) -> {
             if (random.nextFloat() < 0.02 && chunk.getBlock(pos).equals(air)) {
                 Block bush = bushes.get(random.nextInt(bushes.size()));
                 chunk.setBlock(pos, bush);
