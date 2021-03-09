@@ -15,7 +15,7 @@
  */
 package org.terasology.edibleFlora.worldGenerator;
 
-import org.terasology.entitySystem.Component;
+import org.terasology.engine.entitySystem.Component;
 
 /**
  * A flag component used to mark prefabs that contain a bush definition.
