@@ -24,7 +24,7 @@ import org.terasology.engine.registry.CoreRegistry;
 import org.terasology.engine.utilities.random.FastRandom;
 import org.terasology.engine.world.block.Block;
 import org.terasology.engine.world.block.BlockManager;
-import org.terasology.engine.world.chunks.CoreChunk;
+import org.terasology.engine.world.chunks.Chunk;
 import org.terasology.engine.world.generation.Region;
 import org.terasology.engine.world.generation.WorldRasterizerPlugin;
 import org.terasology.engine.world.generator.plugin.RegisterPlugin;
@@ -75,7 +75,7 @@ public class BushRasterizer implements WorldRasterizerPlugin {
      * @param chunkRegion The chunk's region
      */
     @Override
-    public void generateChunk(CoreChunk chunk, Region chunkRegion) {
+    public void generateChunk(Chunk chunk, Region chunkRegion) {
 
         FloraFacet facet = chunkRegion.getFacet(FloraFacet.class);
         facet.getRelativeEntries().keySet().stream().forEach((Vector3ic pos) -> {
