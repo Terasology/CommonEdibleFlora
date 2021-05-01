@@ -1,6 +1,6 @@
 {
     "id": "EdibleFlora",
-    "version": "1.0.0",
+    "version": "1.1.0-SNAPSHOT",
     "author": "jellysnake",
     "displayName": "Edible Flora",
     "description": "Adds a small number of edible produce which can be grown using SimpleFarming",
