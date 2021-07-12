@@ -15,11 +15,16 @@
  */
 package org.terasology.edibleFlora.worldGenerator;
 
-import org.terasology.engine.entitySystem.Component;
+
+import org.terasology.gestalt.entitysystem.component.Component;
 
 /**
  * A flag component used to mark prefabs that contain a bush definition.
  * The current stage of the bush definition will then be placed in the world on chunk generation.
  */
-public class WildBushComponent implements Component {
+public class WildBushComponent implements Component<WildBushComponent> {
+    @Override
+    public void copy(WildBushComponent other) {
+
+    }
 }
